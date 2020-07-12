@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.1 (Python 3.8.2 on win32)" generated="20200712 22:44:53.538" rpa="false">
+<suite id="s1" name="TC07 Forloop" source="C:\Users\Resmi Mahesan\PycharmProjects\Yousician\TestCases\TC07_Forloop.robot">
+<test id="s1-t1" name="forLoop1">
+<kw name="${i} IN RANGE [ 1 | 10 ]" type="for">
+<msg timestamp="20200712 22:44:53.585" level="WARN">Error in file 'C:\Users\Resmi Mahesan\PycharmProjects\Yousician\TestCases\TC07_Forloop.robot' in FOR loop starting on line 3: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${i} = 1" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.587" endtime="20200712 22:44:53.588"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.587" endtime="20200712 22:44:53.588"></status>
+</kw>
+<kw name="${i} = 2" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.589" endtime="20200712 22:44:53.590"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.589" endtime="20200712 22:44:53.590"></status>
+</kw>
+<kw name="${i} = 3" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.590" endtime="20200712 22:44:53.591"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.590" endtime="20200712 22:44:53.591"></status>
+</kw>
+<kw name="${i} = 4" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.592" endtime="20200712 22:44:53.593"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.591" endtime="20200712 22:44:53.593"></status>
+</kw>
+<kw name="${i} = 5" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.593" endtime="20200712 22:44:53.595"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.593" endtime="20200712 22:44:53.596"></status>
+</kw>
+<kw name="${i} = 6" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.596" endtime="20200712 22:44:53.597"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.596" endtime="20200712 22:44:53.597"></status>
+</kw>
+<kw name="${i} = 7" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.597" endtime="20200712 22:44:53.598"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.597" endtime="20200712 22:44:53.598"></status>
+</kw>
+<kw name="${i} = 8" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.598" endtime="20200712 22:44:53.599"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.598" endtime="20200712 22:44:53.599"></status>
+</kw>
+<kw name="${i} = 9" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.599" endtime="20200712 22:44:53.600"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.599" endtime="20200712 22:44:53.600"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.585" endtime="20200712 22:44:53.600"></status>
+</kw>
+<status status="PASS" starttime="20200712 22:44:53.584" endtime="20200712 22:44:53.601" critical="yes"></status>
+</test>
+<test id="s1-t2" name="forloop2">
+<kw name="Create List" library="BuiltIn">
+<doc>Returns a list containing given items.</doc>
+<arguments>
+<arg>1 2 3 4 5</arg>
+</arguments>
+<assign>
+<var>@{list}</var>
+</assign>
+<msg timestamp="20200712 22:44:53.604" level="INFO">@{list} = [ 1 2 3 4 5 ]</msg>
+<status status="PASS" starttime="20200712 22:44:53.603" endtime="20200712 22:44:53.604"></status>
+</kw>
+<kw name="${i} IN [ @{list} ]" type="for">
+<msg timestamp="20200712 22:44:53.605" level="WARN">Error in file 'C:\Users\Resmi Mahesan\PycharmProjects\Yousician\TestCases\TC07_Forloop.robot' in FOR loop starting on line 7: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<kw name="${i} = 1 2 3 4 5" type="foritem">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>${i}</arg>
+</arguments>
+<status status="PASS" starttime="20200712 22:44:53.607" endtime="20200712 22:44:53.608"></status>
+</kw>
+<kw name="Exit For Loop If" library="BuiltIn">
+<doc>Stops executing the enclosing for loop if the ``condition`` is true.</doc>
+<arguments>
+<arg>${i} == 4</arg>
+</arguments>
+<msg timestamp="20200712 22:44:53.609" level="FAIL">Evaluating expression '1 2 3 4 5 == 4' failed: SyntaxError: invalid syntax (&lt;string&gt;, line 1)</msg>
+<status status="FAIL" starttime="20200712 22:44:53.608" endtime="20200712 22:44:53.609"></status>
+</kw>
+<status status="FAIL" starttime="20200712 22:44:53.607" endtime="20200712 22:44:53.609"></status>
+</kw>
+<status status="FAIL" starttime="20200712 22:44:53.605" endtime="20200712 22:44:53.609"></status>
+</kw>
+<status status="FAIL" starttime="20200712 22:44:53.603" endtime="20200712 22:44:53.611" critical="yes">Evaluating expression '1 2 3 4 5 == 4' failed: SyntaxError: invalid syntax (&lt;string&gt;, line 1)</status>
+</test>
+<status status="FAIL" starttime="20200712 22:44:53.543" endtime="20200712 22:44:53.613"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="1">Critical Tests</stat>
+<stat pass="1" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="1" id="s1" name="TC07 Forloop">TC07 Forloop</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20200712 22:44:53.585" level="WARN">Error in file 'C:\Users\Resmi Mahesan\PycharmProjects\Yousician\TestCases\TC07_Forloop.robot' in FOR loop starting on line 3: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+<msg timestamp="20200712 22:44:53.605" level="WARN">Error in file 'C:\Users\Resmi Mahesan\PycharmProjects\Yousician\TestCases\TC07_Forloop.robot' in FOR loop starting on line 7: Marking for loop body with '\' is deprecated. Remove markers and use 'END' instead.</msg>
+</errors>
+</robot>
